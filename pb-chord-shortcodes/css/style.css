@@ -1,0 +1,443 @@
+/* CHORD SHORTCODES */
+/* NORMAL SIZE -***************************************/
+
+table {
+    border-style: none !important;
+    background: #FFFFFF;
+}
+.pb-chord{
+	display: inline-block;
+	vertical-align: top;
+	font-family: "Arial"; 
+	font-size: 10px;
+	font-weight: bold;
+	border-collapse: collapse;
+	border: 0;
+}
+
+#pb-chord-outer {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  float: left;
+  border-style: none !important;
+  width: auto;
+  height: auto;
+  cursor:url(http://www.santhony.com/banjo/sounds/ear.png), auto;
+}
+
+#pb-chord-blank-outer {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  border: none;
+  vertical-align: top;
+  float: right;
+  min-width: 10px;
+  width:10px;
+  height: 10px;
+  z-index: 2;
+}
+
+.fingering span{
+    font-family: "Arial";
+    font-size: 10px !important;
+    color: #1e73be;
+    line-height: 14px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -5px;
+    
+}
+
+.pb-main{
+	display: inline-block;
+	float:left;
+	vertical-align: top;
+	align:left;
+	
+}
+
+.pb-chord-name {
+    font-family: "Arial" !important; 
+	font-size: 16px !important;
+	height: 16px !important;
+}
+
+.pb-chord-name-at-nut {
+    font-family: "Arial" !important; 
+	font-size: 16px !important;
+	border-bottom: 3px solid black;
+	height: 16px !important;
+}
+
+.pb-chord-inversion {
+    font-family: 
+    font-size: 5px !important;
+    color: #aaa;
+    height: 10px !important;
+    }
+    
+.pb-chord thead{
+	text-align: center;
+}
+
+.pb-chord td {
+    font-family: "Arial"; 
+	font-size: 10px;
+	font-weight: bold;
+	background:#fff !important;	
+	height: 20px;
+	width: 16px;
+	min-width: 16px;
+	max-width: 16px;
+	padding: 0px !important;
+	text-align: center;
+}
+
+.pb-chord td span{
+	position: relative;
+	line-height: 10px;
+	right: 0px;
+	top: 0px;
+	left: -6px;
+	background: #fff;
+}
+
+.pb-chord-note
+{
+	border:1px solid darkgray;
+
+}
+
+.pb-chord-note span {
+    left: -12px;
+    top: - 4px;
+}
+
+.pb-border-none
+{
+    border: 1px solid white;
+    padding: 0;
+	min-width: 16px;
+	max-width: 32px;
+}
+
+.pb-border-none span
+{
+    left: -7px;
+}
+
+.pb-fret-marker
+{
+    float:left;
+    overflow: visible;
+    display: block;
+    position: relative;
+    padding: 0px;
+	left: -8px;
+	top: 0px;
+	z-index:3;
+}
+
+.pb-empty-fret-marker
+{
+    float:left;
+    overflow: visible;
+    display: block;
+    position: relative;
+    padding: 0px;
+	left: -8px;
+	top: 0px;
+	z-index:3;
+}
+.pb-old-empty-fret-marker
+{
+    border: 1px solid white;
+    margin-top:-5px;
+    margin-left:-10px;
+    height: 10px !important;
+    
+}
+
+
+.pb-chord tr td:first-of-type span{
+	right:0px;
+	padding:0px;
+	border: 0px;
+}
+
+#pb-circle {
+    background: #000;
+    /*color: #000 !important;*/
+    width: 10px;
+    height: 10px;
+    left: -12px;
+    margin-top: 3px !important;
+    margin-bottom:3px !important;
+    border-radius: 50%;
+}
+
+.pb-circle-odd {
+    background: #008;
+    /*color: #000 !important;*/
+    width: 10px;
+    height: 10px;
+    left: -12px;
+    margin-top: 3px !important;
+    margin-bottom:3px !important;
+    border-radius: 50%;
+}
+
+.pb-circle-even {
+    background: #800;
+    /*color: #000 !important;*/
+    width: 10px;
+    height: 10px;
+    left: -12px;
+    margin-top: 3px !important;
+    margin-bottom:3px !important;
+    border-radius: 50%;
+}
+
+#pb-empty-circle {
+    background: #8cd;
+    /*color: #000 !important;*/
+    width: 10px;
+    height: 10px;
+    left: -12px;
+    margin-top: 3px !important;
+    margin-bottom:3px !important;
+    border-radius: 50%;
+}
+
+.pb-fretboard-dot {
+    diaplay: block; 
+    position: relative; 
+    text-align:top;
+    float: left; 
+    width:15px; 
+    padding: 0px;
+    border: none;
+    border-collapse: collapse;
+    text-align:center;
+    background:rgba(255, 255, 255, 0);
+}
+
+.pb-fretboard-double-dot {
+    diaplay: block; 
+    position: relative; 
+    text-align:top;
+    float: left; 
+    width:15px; 
+    padding: 0px;
+    border: none;
+    border-collapse: collapse;
+    text-align:center;
+    background:rgba(255, 255, 255, 0);
+
+}
+
+/* SMALL SIZE CHORD DIAGRAMS **********************************/
+/* CHORD SHORTCODES */
+
+.pb-chord-row {
+     display: flex;
+    height:80px;
+    width:inherit;
+    z-index: 1;
+}
+
+.pb-staff {
+    display: block-inline;
+    clear: left;
+    z-index:3;
+    margin-top: -25px;
+}
+
+.chords {
+    display: flex;
+    height:80px;
+    width:inherit;
+    z-index: 1;
+}
+.staff {
+    display: block-inline;
+    clear: left;
+    z-index:3;
+    margin-top: -25px;
+}
+
+
+.pb-small-chord{
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: top;
+	font-family: "Arial"; 
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: bold;
+	border-collapse: collapse;
+	border-style: none !important;
+	border: 0;
+	overflow:visible;
+	margin-bottom: 10px;
+}
+
+#pb-small-chord-clear {
+    display: inline-block;
+    height: 45px;
+    clear:both;
+}
+
+#pb-small-chord-outer {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: visible;
+  position: relative;
+  border-style: none !important;
+  float: left;
+  width: 40px;
+  
+  overflow:visible;
+  cursor:url(http://www.santhony.com/banjo/sounds/ear.png), auto;
+}
+
+#pb-small-chord-blank-outer {
+  display: inline-block;
+  overflow:visible;
+  white-space: nowrap;
+  position: relative;
+  vertical-align: top;
+  float: left;
+  width: 16px;
+  height: 10px;
+  z-index: 2;
+
+}
+
+
+.pb-small-chord-name {
+    overflow: visible;
+    text-align: center;
+    font-family: "Arial" !important; 
+	font-size: 12px !important;
+	height: 16px !important;
+	width: 40px;
+	vertical-align: middle;
+	margin-left: -8px;
+}
+
+.pb-small-chord-name-at-nut {
+    font-family: "Arial" !important; 
+	font-size: 12px !important;
+	border-bottom: 2px solid black;
+	height: 16px !important;
+	vertical-align: middle;
+	overflow: auto;
+}
+
+.pb-small-chord thead{
+	text-align: center;
+}
+
+.pb-small-chord td{
+	background:#fff !important;	
+	height: 12px;
+	width: 10px !important;
+	min-width: 8px;
+	max-width: 8px;
+	padding: 1px !important;
+	vertical-align: top;
+	text-align: center;
+}
+
+.pb-small-chord td span{
+	position: relative;
+	right: 0px;
+	top: 0px;
+	background: #fff;
+	overflow: visible;
+}
+
+.pb-small-chord-note
+{
+    border:1px solid darkgray;
+    overflow:visible;
+
+}
+
+.pb-small-chord-note span {
+    left: -4px;
+    
+}
+
+.pb-small-border-none
+{
+    border:1px solid white;
+    width: 10px !important;
+    height: 12px;
+    padding: 1px;
+    vertical-align: top;
+    /*margin-top:2px;*/
+}
+
+.pb-small-border-none span
+{
+    left: -4px;
+    width: 16px !important;
+    /*margin-top: 2px;*/
+}
+.pb-small-fret-marker span
+{
+    font-family: "Arial"; 
+	font-size: 8px;
+	line-height: 10px;
+	left: -5px;
+	top: 6px;
+	width: 12px !important;
+	font-weight: bold;
+	border:1px solid white;
+	padding-top:3px;
+}
+
+.pb-small-fret-marker span {
+    left: -4px;
+    width: 20px;
+    white-space: nowrap;
+}
+
+.pb-small-empty-fret-marker
+{
+    border: none !important;
+}
+
+
+.pb-small-chord tr td:first-of-type span{
+	right:0px;
+}
+
+
+
+#pb-small-circle {
+    background: #000;
+    overflow:visible;
+    /*color: #000 !important;*/
+    width: 6px;
+    height: 6px;
+    left: -5px;
+    margin-top: 2px !important;
+    margin-bottom:1px !important;
+    border-radius: 50%;
+}
+
+#pb-small-empty-circle {
+    background: #8cd;
+    /*color: #000 !important;*/
+    width: 7px;
+    height: 7px;
+    left: -5px;
+    margin-top: 2px !important;
+    margin-bottom:1px !important;
+    border-radius: 50%;
+}
